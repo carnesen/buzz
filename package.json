@@ -1,0 +1,42 @@
+{
+  "description": "An eta-base project",
+  "scripts": {
+    "lint": "eslint lib",
+    "start": "node server.js",
+    "start:debug": "DEBUG=* npm run start",
+    "start:watch": "nodemon server.js",
+    "test": "npm run lint; mocha --opts .mocha.opts",
+    "test:watch": "npm run lint; mocha --opts .mocha.opts --watch"
+  },
+  "dependencies": {
+    "angular": "1.4.8",
+    "body-parser": "1.13.2",
+    "bootstrap": "3.3.6",
+    "chai": "3.4.1",
+    "eslint": "1.9.0",
+    "express": "4.13.1",
+    "handlebars": "4.0.5",
+    "jade": "1.11.0",
+    "jquery": "2.1.4",
+    "mocha": "2.3.4",
+    "mockgoose": "5.0.10",
+    "mongoose": "4.2.9",
+    "morgan": "1.6.1",
+    "nodemon": "1.8.1",
+    "supertest": "1.1.0"
+  },
+  "name": "buzz",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carnesen/buzz.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carnesen/buzz/issues"
+  },
+  "homepage": "https://github.com/carnesen/buzz#readme"
+}

@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  .row
+    .col-md-4
+    .col-md-4
+      form
+        .form-group
+          label(for="email") email address:
+          input(type="email" id="email").form-control
+        .form-group
+          label(for="password") password:
+          input(type="password" id="password").form-control
+        button(type="submit").btn.btn-default Login
+
+  script(src='/lib/jquery.min.js')
+  script(src='/js/jq.js')
