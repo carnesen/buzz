@@ -19,10 +19,11 @@ html
       header
         h1= title
       main(ng-controller='ctrl')
-        label(for="name") Name
-        input(type="text" name="name" id="name" ng-model="name")
-        input(type="submit" value="Buzz" ng-show="name" ng-click="buzz()")
-        input(type="submit" value="Reset" ng-click="reset()")
+        .form
+          label(for="name") Name
+          input(type="text" name="name" id="name" ng-model="name")
+          input(type="submit" value="Buzz" ng-click="buzz()")
+          input(type="submit" value="Reset" ng-click="reset()")
         ol
           li(ng-repeat="buzz in buzzes") {{ buzz }}
 

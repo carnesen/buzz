@@ -5,6 +5,7 @@ body {
 .page {
   margin: auto;
   background-image: url(/img/confectionary.png);
+  padding: 2%;
 }
 
 header {
@@ -13,7 +14,13 @@ header {
   text-align: center;
 }
 
-.app {
+body {
   margin: auto;
   width: 30%;
+}
+
+ol, .form {
+  margin: auto;
+  width: 70%;
+  padding: 3%;
 }

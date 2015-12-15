@@ -17,7 +17,10 @@ app.controller('ctrl', ['$scope', function($scope) {
 
   // Click handler for buzz button
   $scope.buzz = () => {
-    socket.emit('buzz', $scope.name);
+    // Don't emit if name is empty
+    if ($scope.name) {
+      socket.emit('buzz', $scope.name);
+    }
   };
 
   // Handler for incoming buzz events
