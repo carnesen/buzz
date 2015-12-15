@@ -1,17 +1,14 @@
 {
-  "description": "An eta-base project",
+  "description": "A gameshow buzzer app",
   "scripts": {
-    "lint": "eslint lib",
-    "start": "node server.js",
+    "start": "bin/www.js",
     "start:debug": "DEBUG=* npm run start",
-    "start:watch": "nodemon server.js"
+    "start:watch": "nodemon bin/www.js"
   },
   "dependencies": {
     "angular": "1.4.8",
     "angular-route": "1.4.8",
     "body-parser": "1.13.2",
-    "bootstrap": "3.3.6",
-    "eslint": "1.9.0",
     "express": "4.13.1",
     "jade": "1.11.0",
     "morgan": "1.6.1",
@@ -21,7 +18,7 @@
   },
   "name": "buzz",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "app.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/carnesen/buzz.git"

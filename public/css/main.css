@@ -12,3 +12,8 @@ header {
   margin: auto;
   text-align: center;
 }
+
+.app {
+  margin: auto;
+  width: 30%;
+}
