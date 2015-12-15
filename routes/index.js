@@ -12,24 +12,6 @@ module.exports = [
     handler(req, res) {
       res.render('index', context);
     }
-  },
-
-  {
-    path: '/jq',
-    method: 'get',
-    handler(req, res) {
-      res.render('jq', context);
-    }
-  },
-
-  {
-    path: '/ng',
-    method: 'get',
-    handler(req, res) {
-      res.render('ng', context);
-    }
   }
-
-
 
 ];

@@ -1,11 +1,12 @@
 extends layout
 
 block content
-  .row
-    .col-md-4
-    .col-md-4
-      ul
-        li
-          a(href="/jq") jQuery example
-        li
-          a(href="/ng") Angular example
+  link(rel='stylesheet', href='/css/index.css')
+  form
+    label(for="name") Name
+    input(type="text" name="name" id="name" ng-model="name")
+    input(type="submit" value="Buzz" ng-show="name" ng-click="buzz()")
+  ol
+    li(ng-repeat="buzz in buzzes") {{ buzz }}
+
+  script(src="js/index.js")
