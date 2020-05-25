@@ -1,15 +1,14 @@
 {
   "name": "@carnesen/buzz",
-  "version": "0.0.0",
+  "version": "0.0.0-0",
+  "private": true,
   "main": "app.js",
   "description": "A gameshow buzzer app",
   "scripts": {
-    "test": "echo 'No tests :('",
+    "test": "./test.sh",
     "start": "bin/www.js",
     "start:debug": "DEBUG=* npm run start",
-    "start:watch": "nodemon bin/www.js",
-    "preversion": "npm test",
-    "postversion": "npm publish"
+    "start:watch": "nodemon bin/www.js"
   },
   "dependencies": {
     "angular": "1.4.8",
