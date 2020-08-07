@@ -35,8 +35,8 @@ app.start = () => {
 // log to console all http requests
 app.use(logger('dev'));
 
-// View engine setup for res.render(<view name>.jade, context);
-app.set('view engine', 'jade');
+// View engine setup for res.render(<view name>.pug, context);
+app.set('view engine', 'pug');
 app.set('views', path.join(__dirname, 'views'));
 
 // Parse JSON http request bodies and attach to the request object as req.body
