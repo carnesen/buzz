@@ -1,7 +1,7 @@
 {
   "name": "@carnesen/buzz",
   "description": "A game-show buzzer app websocket example",
-  "version": "2020.5.0",
+  "version": "0.0.0-0",
   "private": true,
   "scripts": {
     "test": "./test.sh",
