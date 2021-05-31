@@ -1,5 +1,11 @@
 # **@carnesen/buzz** changelog
 
+## Upcoming
+
+- Changed: Use SemVer versioning instead of date-based.
+
+- Internal: Upgrade dependencies
+
 ## 2020.8.0
 
 ### Breaking

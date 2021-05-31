@@ -1,7 +1,7 @@
 {
   "name": "@carnesen/buzz",
   "description": "A game-show buzzer app websocket example",
-  "version": "0.0.0-0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "test": "./test.sh",
@@ -10,15 +10,15 @@
     "start:watch": "nodemon bin/www.js"
   },
   "dependencies": {
-    "angular": "1.8.0",
-    "angular-route": "1.8.0",
+    "angular": "1.8.2",
+    "angular-route": "1.8.2",
     "body-parser": "1.19.0",
     "express": "4.17.1",
     "morgan": "1.10.0",
-    "nodemon": "2.0.4",
-    "pug": "3.0.0",
-    "socket.io": "2.3.0",
-    "socket.io-client": "2.3.0"
+    "nodemon": "2.0.7",
+    "pug": "3.0.2",
+    "socket.io": "4.1.2",
+    "socket.io-client": "4.1.2"
   },
   "repository": {
     "type": "git",
