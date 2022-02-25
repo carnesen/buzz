@@ -2,6 +2,8 @@
 
 ## Upcoming
 
+## carnesen-buzz-2022.2.0 (2022-02-25)
+
 - Update to Node.js 16
 
 - Use date-based versioning now that @carnesen/dev supports date-based semver

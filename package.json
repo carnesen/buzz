@@ -1,34 +1,35 @@
 {
-  "name": "@carnesen/buzz",
-  "description": "A game-show buzzer WebSocket example app",
-  "version": "2022.2.0",
-  "private": true,
-  "scripts": {
-    "test": "./test.sh",
-    "start": "bin/www.js",
-    "start:debug": "DEBUG=* npm run start",
-    "start:watch": "nodemon bin/www.js"
-  },
-  "dependencies": {
-    "angular": "1.8.2",
-    "angular-route": "1.8.2",
-    "body-parser": "1.19.0",
-    "express": "4.17.1",
-    "morgan": "1.10.0",
-    "nodemon": "2.0.7",
-    "pug": "3.0.2",
-    "socket.io": "4.1.2",
-    "socket.io-client": "4.1.2"
-  },
-  "devDependencies": {
-    "@carnesen/dev": "0.1.0"
-  },
-  "repository": "github:carnesen/buzz",
-  "keywords": [],
-  "author": "Chris Arnesen",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/carnesen/buzz/issues"
-  },
-  "homepage": "https://github.com/carnesen/buzz#readme"
+	"name": "@carnesen/buzz",
+	"description": "A game-show buzzer WebSocket example app",
+	"version": "2022.2.0",
+	"private": true,
+	"scripts": {
+		"release": "carnesen-dev release --semverBump date",
+		"test": "./test.sh",
+		"start": "bin/www.js",
+		"start:debug": "DEBUG=* npm run start",
+		"start:watch": "nodemon bin/www.js"
+	},
+	"dependencies": {
+		"angular": "1.8.2",
+		"angular-route": "1.8.2",
+		"body-parser": "1.19.0",
+		"express": "4.17.1",
+		"morgan": "1.10.0",
+		"nodemon": "2.0.7",
+		"pug": "3.0.2",
+		"socket.io": "4.1.2",
+		"socket.io-client": "4.1.2"
+	},
+	"devDependencies": {
+		"@carnesen/dev": "0.1.0"
+	},
+	"repository": "github:carnesen/buzz",
+	"keywords": [],
+	"author": "Chris Arnesen",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/carnesen/buzz/issues"
+	},
+	"homepage": "https://github.com/carnesen/buzz#readme"
 }
