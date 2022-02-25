@@ -2,6 +2,10 @@
 
 ## Upcoming
 
+- Update to Node.js 16
+
+- Use date-based versioning now that @carnesen/dev supports date-based semver
+
 ## v1.0.0 (2021-05-31)
 
 - Changed: Use SemVer versioning instead of date-based.
